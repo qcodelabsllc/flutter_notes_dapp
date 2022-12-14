@@ -1,0 +1,33 @@
+name: truffle_flutter
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 0.0.0-dev+0
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  riverpod:
+  flutter_riverpod:
+  web3dart:
+  walletconnect_dart:
+  google_fonts:
+  http:
+  web_socket_channel:
+  tabler_icons:
+  flex_color_scheme:
+  form_field_validator:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - build/contracts/
